@@ -8,7 +8,7 @@ jailed: false
 theme: jekyll-theme-primer
 gfm_quirks: paragraph_end
 markdown: CommonMarkGhPages
-baseurl: /Jekyll-Blog-Undiscovered-Github
+baseurl: /Jekyll-Blog-Github
 permalink: pretty
 exclude: ['README.md']
 paginate: 3
