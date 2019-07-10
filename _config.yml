@@ -1,0 +1,31 @@
+github: [metadata]
+encoding: UTF-8
+kramdown:
+  input: GFM
+  hard_wrap: false
+future: true
+jailed: false
+theme: jekyll-theme-primer
+gfm_quirks: paragraph_end
+markdown: CommonMarkGhPages
+baseurl: /Jekyll-Blog-Undiscovered-Github
+permalink: pretty
+exclude: ['README.md']
+paginate: 3
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      category: "standups"
+      author: "Jacob Helton"
+      banner_image: "900x300.png"
+      thumbnail: "750x300.png"
